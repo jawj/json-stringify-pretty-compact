@@ -1,3 +1,6 @@
+**Fork information:** This is a maintained fork which implements these additional options: `maxNesting`, `arrayMargins`, and `objectMargins`.
+
+
 Overview [![Build Status](https://travis-ci.org/lydell/json-stringify-pretty-compact.svg?branch=master)](https://travis-ci.org/lydell/json-stringify-pretty-compact) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ========
 
