@@ -1,6 +1,6 @@
 {
   "name": "@aitodotai/json-stringify-pretty-compact",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Simon Lydell and Aito Intelligence",
   "license": "MIT",
   "description": "The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.",
