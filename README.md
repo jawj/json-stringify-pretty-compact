@@ -36,7 +36,7 @@ Installation
 `npm install @aitodotai/json-stringify-pretty-compact`
 
 ```js
-var stringify = require("json-stringify-pretty-compact")
+var stringify = require('@aitodotai/json-stringify-pretty-compact')
 ```
 
 
