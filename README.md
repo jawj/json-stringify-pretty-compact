@@ -1,7 +1,7 @@
 **Fork information:** This is a maintained fork which implements these additional options: `maxNesting`, `arrayMargins`, and `objectMargins`.
 
 
-Overview [![Build Status](https://travis-ci.org/lydell/json-stringify-pretty-compact.svg?branch=master)](https://travis-ci.org/lydell/json-stringify-pretty-compact) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+Overview [![Build Status](https://travis-ci.org/AitoDotAI/json-stringify-pretty-compact.svg?branch=master)](https://travis-ci.org/AitoDotAI/json-stringify-pretty-compact) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ========
 
 The output of `JSON.stringify` comes in two flavors: _compact_ and _pretty._ The
@@ -33,7 +33,7 @@ maximum line length; if that doesn’t help then so be it.
 Installation
 ============
 
-`npm install json-stringify-pretty-compact`
+`npm install @aitodotai/json-stringify-pretty-compact`
 
 ```js
 var stringify = require("json-stringify-pretty-compact")
@@ -97,6 +97,13 @@ arrays are on one line if they fit (according to `options.maxLength`).
 
 `stringify(obj, {maxLength: Infinity})` gives the exact same result as
 `JSON.stringify(obj)`, except that there are spaces after colons and commas.
+
+
+## Releasing
+
+Example of publishing new release with patch change:
+
+`npm run publish -- patch`
 
 
 License

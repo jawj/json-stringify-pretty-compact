@@ -1,15 +1,18 @@
 {
-  "name": "json-stringify-pretty-compact",
+  "name": "@aitodotai/json-stringify-pretty-compact",
   "version": "1.2.0",
-  "author": "Simon Lydell",
+  "author": "Simon Lydell and Aito Intelligence",
   "license": "MIT",
   "description": "The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.",
   "main": "index.js",
-  "repository": "lydell/json-stringify-pretty-compact",
+  "repository": "AitoDotAI/json-stringify-pretty-compact",
   "files": [
     "index.js",
     "index.d.ts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "JSON",
     "stringify",
@@ -24,11 +27,13 @@
   "scripts": {
     "lint": "standard",
     "unit": "mocha --ui tdd",
-    "test": "npm run lint && npm run unit"
+    "test": "npm run lint && npm run unit",
+    "publish": "np --no-yarn"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.1.0",
+    "np": "^4.0.2",
     "standard": "^10.0.3"
   }
 }
